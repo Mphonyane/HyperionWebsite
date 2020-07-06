@@ -1,0 +1,475 @@
+<nav class="navbar navbar-expand-lg navbar-default  navbar-dark sticky-top">
+
+  <div class="container">
+  <a class="navbar-brand" href="#">
+    <img src="../../assets/imgs/logo.png"width="200" height="">
+  </a>
+ 
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavigationBar"
+    aria-controls="NavigationBar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon bg-dark"> </span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="NavigationBar">
+
+    <!-- Links -->
+    <ul class="navbar-nav  ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link text-dark py-3 px-0 px-lg-3" (click)="home.scrollIntoView({ behavior: 'smooth', block: 'start' })"><span class="hoverBackground">COMPANY</span>
+          
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark py-3 px-0 px-lg-3 js-scroll-trigger"  (click)="about.scrollIntoView({ behavior: 'smooth', block: 'start' })"><span class="hoverBackground">WHo WE ARE</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark py-3 px-0 px-lg-3" (click)="services.scrollIntoView({ behavior: 'smooth', block: 'start' })"><span class="hoverBackground">WHAT WE OFFER</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark py-3 px-0 px-lg-3" (click)="projects.scrollIntoView({ behavior: 'smooth', block: 'start' })"><span class="hoverBackground">OUR WORK</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark py-3 px-0 px-lg-3" (click)="contact.scrollIntoView({ behavior: 'smooth', block: 'start' })"><span class="hoverBackground">CONTACT US</span></a>
+      </li>
+
+      <!-- Dropdown -->
+      
+
+    </ul>
+  </div>
+  </div>
+ 
+
+</nav>
+<div #home>
+  <header id="home" >
+    <div class="HeaderHome">
+    
+      <div class="container-fluid">
+          <div class="row">
+             
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             
+              <h1 class="innerHeaderTitle ">IOT DEVELOPMENT & CONSULTING COMPANY</h1>
+              <p>Working together, we will develop new systems, solutions, and products to put you ahead of your competition.</p>
+              
+              <p class=""><a (click)="contact.scrollIntoView({ behavior: 'smooth', block: 'start' })" class="btn btn-lg btn-outline-light ">Contact us</a></p>
+            
+            </div>
+        </div>
+        
+            
+          </div>
+      </div>
+  </header>
+  </div>
+  <!--About Section-->
+  <div class="aboutSection" id="about" #about>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12"style="padding-top:3rem">
+            <h1 class="text-center header-title"><span class="firstLetter">W</span>HO WE ARE</h1>
+            <h3 class="text-center">Enabling a more connected world.</h3>
+            <p class="text-center">
+                Hyperion is a newly formed tech start-up based in Pretoria. with the emergence of the Industry_4.0, the co-founders saw an opportunity to take advantage of their background in robotics, and informatics to form a company that offers smart applications and services that will aid organizations in the agriculture sector run effectively, while leaving a small carbon footprint.
+            </p>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <p class=text-center><img src="../../assets/imgs/icon_connected.svg"class="img-fluid aboutImg"width="120"height="120">
+        </p> <h4 class="text-center">Advanced Technologies</h4>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <p class=text-center><img src="../../assets/imgs/icon_diamond.svg"class="img-fluid aboutImg"width="120"height="120">
+        </p>
+        <h4 class="text-center">Expert design</h4>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <p class=text-center><img src="../../assets/imgs/icon_sproket.svg"class="img-fluid aboutImg"width="120"height="120">
+        </p>
+        <h4 class="text-center">Reliability and Security</h4>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <p class=text-center><img src="../../assets/imgs/icon_growth.svg"class="img-fluid aboutImg"width="120"height="120">
+        </p>
+        
+        <h4 class="text-center">Optimized solutions</h4>
+    </div>
+</div>
+</div>     
+</div>
+<!--End Section-->
+<!--About Section-->
+<div class="serviceSection fadeDown"id="services"style="padding-bottom:5rem"#services>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12"style="padding-bottom:1rem">
+              <h1 class="text-center header-title"><span class="firstLetter">W</span>HAT WE OFFER</h1>
+              <h4 class="text-center"> We provide services that will help you achieve your business gosls.</h4>
+          </div>
+      </div>
+  </div>
+  
+  <div class="container-fluid service-fluid">
+      <div class="service-container">
+          <div class="row">
+          
+              <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 cardbackgroundImage1">
+                      <div class="card ">
+                          <div class="innerCard">
+                              
+                          <div class="icon">
+                              <p class="text-center"><img src="../../assets/imgs/iot (1).png"></p>
+                          </div>
+                          <div class="servicesCardHeader">
+                              <h4>Internet of Things</h4>
+                          </div>
+                          <div class="description">
+                              <p>Targeting the Agriculture Sector we aim to build solutions that will help minimize the costs of running farms. These devices provide real-time analytics of the environment and automate farming techniques.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 cardbackgroundImage1">
+                  <div class="card ">
+                      <div class="innerCard">
+                          <div class="icon">
+                              <p class="text-center"><img src="../../assets/imgs/datascience.png"></p>
+                          </div>
+                              <div class="servicesCardHeader">
+                                  <h4>Data Science</h4>
+                              </div>
+                              <div class="description">
+                                  <p>IoT Devices uses the cloud to share data and information, our goal is to use tis data to identify patterns and trends to predict the future of farming in South Africa and also help minimize the impact on climate change. </p>
+                              </div> 
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 cardbackgroundImage1">
+                  <div class="card ">
+                      <div class="innerCard">
+                          <div class="icon">
+                              <p class="text-center"><img src="../../assets/imgs/consultation.png"></p>
+                          </div>
+                      <div class="servicesCardHeader">
+                          <h4>Consultancy</h4>
+                      </div>
+                      <div class="description">
+                          <p>From the insights gathered from our analysis and data. We want to be able to bundle this information to help agriculture sector learn more about the state of farming and maximizing profits while minimizing costs.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="call-to-action"style="padding-top:2rem;">
+  <div class="container">
+      <div class="row">
+          <div class="call-to-action-heading">
+              <h1 class="text-center ">
+                Empowering Your Business With Data Science and IoT Technology
+              </h1>
+          </div>
+          <p class="text-center text-light">If you are looking for a data science consultancy or a reliable technology partner to create innovative, market-leading solutions, we are here to help!<br><a  (click)="contact.scrollIntoView({ behavior: 'smooth', block: 'start' })" class="btn btn-lg btn-outline-light contact-btn">Contact Us</a></p>
+  </div>
+</div>
+</div>
+<!--End Section-->
+<!--PROJECTS-->
+<div #projects>
+<div class="project-section"style="padding-top:5rem" >
+  <div class="container-fluid"style="padding-bottom:5rem">
+      <div class="col-lg-12 col-md-12 col-sm-6 col-sm-12">
+          <h1 class="text-center header-title"><span class="firstLetter">O</span>UR WORK</h1>
+                  <h3 class="text-center">Our latest projects</h3>
+      </div>
+      <div class="row"style="padding-top:3rem;">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 card-image">
+              <div class=" img">
+                  <img src="../../assets/imgs/iotFeatures.png" class="img-fluid shadow">
+                  <p class="img-overly">THERMOMETOR DEVICE
+                  
+                  </p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="img">
+                  <img src="../../assets/imgs/iot-development-services-security-systems-370x370.png" class="img-fluid shadow">
+                  <p class="img-overly">CAR TRACKER KEY DEVICE</p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-3">
+            <div class="img ">
+                <img src="../../assets/imgs/iot-development-services-smart-retail-370x370.png" class="img-fluid shadow"height="700">
+                <p class="img-overly">IOT MEDICAL APPLICATION</p>
+            </div>
+        </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="padding-bottom:5rem">
+              <div class="img">
+                  <img src="../../assets/imgs/industrial-iot-development-services-370x370.png" class="img-fluid shadow">
+                  <p class="img-overly">SMART CITY DEVELOPMENT</p>
+              </div>
+          </div>
+      </div>
+      </div>
+      </div>
+      
+      <!--End Projects-->
+      <div class="call-to-action2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="call-to-action2-header">
+                <h3 class="text-center "style="padding-bottom:10rem;padding-top:10rem;font-size:40px;color;#fff">Internet of Things solutions for global businesses.</h3>
+              </div>
+        </div>
+       
+           
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            
+          </div>
+        </div>
+        
+        
+      </div>
+      <!--Start Testimonials-->
+<div class="testimonials-section"></div>
+
+<div class="col-lg-12 col-md-12 col-sm-6 col-sm-12">
+  <h1 class="text-center header-title"><span class="firstLetter">T</span>ESTIMONIALS</h1>
+          <h3 class="text-center">What our clients say about our services</h3>
+</div>
+     <!--Carousel Wrapper-->
+     
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view ">
+        <img class="d-block w-100" src="../../assets/imgs/transparantImage2.png"
+          alt="First slide">
+        <div class="mask "></div>
+      </div>
+      <div class="carousel-caption">
+         
+          <div class="card ">
+               <div class="testimonial-img">
+              <img src="../../assets/imgs/iotFeatures.png"width="100"height="100">
+          </div>
+          <p class="text-center text-dark font-weight-bold">
+              Innovate Technologies
+           </p>
+              <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
+              </p>
+              <p class="text-center text-primary  font-weight-bold">
+                 Minnie Jones
+              </p>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="../../assets/imgs/transparantImage2.png"
+          alt="Second slide">
+        <div class="mask "></div>
+      </div>
+      <div class="carousel-caption">
+          <div class="card">
+              <div class="testimonial-img">
+             <img src="../../assets/imgs/iotFeatures.png"width="100"height="100">
+         </div>
+         <p class="text-center text-dark font-weight-bold">
+          Indaba Inc
+       </p>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
+          </p>
+          <p class="text-center text-primary  font-weight-bold">
+             Naledi Ndaba
+          </p>
+         </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view ">
+        <img class="d-block w-100" src="../../assets/imgs/transparantImage2.png"
+          alt="Third slide">
+        <div class="mask "></div>
+      </div>
+      <div class="carousel-caption">
+          <div class="card ">
+              <div class="testimonial-img">
+             <img src="../../assets/imgs/iotFeatures.png"width="100"height="100">
+         </div>
+         <p class="text-center text-dark font-weight-bold">
+          Sky iot Tech
+       </p>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
+          </p>
+          <p class="text-center text-primary font-weight-bold">
+             Julia Wiliams
+          </p>
+             
+         </div>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+</div>
+<!--End Projects-->
+<!--Contact-->
+<!--Contact-->
+<div class="contact-section"id="contact" #contact>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12"style="padding-bottom:1rem">
+              <h1 class="text-center header-title"><span class="firstLetter">G</span>ET IN TOUCH</h1>
+              <h4 class="text-center"> Connect with us to know more about our services.</h4>
+             
+          </div>
+      </div>
+
+  <div class="inner-contact-section">
+      <div class="row">
+          
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card-wrap">
+             <div class="card">
+                 <div class="icons">
+                  <p class="text-center"><i class="fa fa-home"></i></p>
+                 </div>
+                 <h4 class="text-center contact-title">ADDRESS</h4>
+                 <p class="text-center">TUT Enterprise Holdings, Building 23, 23 Meiring Naude Rd, Scientia 627-Jr, Pretoria, 0184</p>
+             </div>
+          </div>
+          <div class="card-wrap">
+             <div class="card">
+              <div class="icons">
+                  <p class="text-center"><i class="fa fa-phone"></i></p>
+              </div>
+              <h4 class="text-center contact-title">PHONE</h4>
+              <p class="text-center">012 2589 632</p>
+          </div>
+          </div>
+          <div class="card-wrap">
+          <div class="card">
+              <div class="icons">
+                  <p class="text-center"><i class="fa fa-envelope"></i></p>
+                  
+                  
+              </div>
+              <h4 class="text-center contact-title">EMAIL</h4>
+              <p class="text-center">hello@hyperion.inc</p>
+          </div>
+         </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+             <!-- Default form contact -->
+             
+             
+                <form [formGroup]="formGroup" (validSubmit)="onSubmit()">
+                  <div class="form-group" [customErrorMessages]="customErrorMessages">
+                  <label class="control-label">Full Name</label>
+                  <input type="text" class="form-control" formControlName="Name">
+                </div>
+                  <div class="form-group" [customErrorMessages]="customErrorMessages">
+                    <label class="control-label">Email Address</label>
+                    <input type="text" class="form-control" formControlName="Email">
+                  </div>
+                  <div class="form-group" [customErrorMessages]="customErrorMessages">
+                      <label class="control-label">Subject</label>
+                      <input type="text" class="form-control" formControlName="Subject">
+                    </div>
+                    <div class="form-group" [customErrorMessages]="customErrorMessages">
+                      <label class="control-label">Message</label>
+                      <textarea type="text" class="form-control" formControlName="Message"></textarea>
+                    </div>
+                   
+                  
+                  <button class="btn btn-default col-12" type="button" (click)="onReset()">Reset</button>
+                  <button class="btn btn-primary col-12 pull-right" type="submit">Submit</button>
+                </form>
+              </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!--End of FORM-->
+<div class="footer-section">
+  <div class="container">
+ 
+   
+    <div class="row">
+        
+    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 sociallinks text-center">
+                  <div class=" text-center"> 
+                    
+                    <p>
+                      
+                   
+                    <a href="https://www.facebook.com/Omid-Tech-101183871576245/" class="facebook ">
+                      
+                  </a>
+                        <a href="https://twitter.com/omid_tech" class="twitter">
+                          
+                      </a>
+                     
+                      <a href="https://www.linkedin.com/company/omid-tech" class="linkedin">
+                          
+                      </a>
+                     
+                        <a href="https://www.instagram.com/omidtech_za" class="Instagram">
+                           
+                      </a>
+                    </p>
+              </div>
+              </div>
+    
+    </div>
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-2 col-xs-4">
+        <p class="text-center"><a (click)="home.scrollIntoView({ behavior: 'smooth', block: 'start' })">Home</a> |
+           <a (click)="about.scrollIntoView({ behavior: 'smooth', block: 'start' })">About</a> |
+            <a (click)="services.scrollIntoView({ behavior: 'smooth', block: 'start' })">Services</a> |
+             <a (click)="projects.scrollIntoView({ behavior: 'smooth', block: 'start' })">Projects </a>|
+          <a (click)="contact.scrollIntoView({ behavior: 'smooth', block: 'start' })">Contact us</a></p>
+
+      </div>
+    </div>
+ 
+  <footer id="footer" class="text-center"style="padding-bottom:1rem">
+      &copy; 2020 . All rights reserved by Hypricon.Inc.
+    </footer>

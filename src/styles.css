@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    font-size:40px;
+    font-weight: 900;
+    color:#011627 ;
+    margin-top:5rem;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    
+  }
+  p{
+      font-size:20px
+  }
+  .firstLetter{
+    color:#2ec4b6;
+    border-bottom:4px solid #011627 ;
+}
+@media(max-width:640px){
+  .header-title{
+    font-size: 25px;
+    padding-bottom:2rem;
+  }
+}

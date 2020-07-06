@@ -1,0 +1,308 @@
+
+/*HOME CSS*/
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+  }
+header {
+    background: url(../../assets/imgs/iot-development-consulting-company.png);
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:17px solid #2ec4b6;
+  }
+  @media(max-width:640px){
+    header{
+      background: url(../../assets/imgs/iot-development-consulting-company2.png);
+  
+    }
+    .HeaderHome h1{
+      color:#fff;
+      text-align:center;
+    }
+    .HeaderHome p{
+      text-align: center;
+    }
+    
+
+  }
+  .innerHeaderTitle{
+    font-size:50px;
+    font-weight: 900;
+    color:#fff;
+    margin-top:13rem;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    
+  }
+  header p{
+      color:#fff;
+      font-size: 25px;
+  }
+  header .btn{
+      font-weight: 800;
+  }
+  .gradientColor{
+    
+    height:90vh;
+  }
+  .navbar{
+    background: rgba(255,255,255,0.99);
+    
+  }
+  .navbar .nav-link{
+    color:#000;
+  }
+  .navbar a:hover .hoverBackground{
+    background-color:#2ec4b6 ;
+  }
+  @media(max-width:640px){
+    .innerHeaderTitle{
+      font-size:23px;
+    }
+    #home p{
+      font-size:15px;
+    }
+  }
+  /* About Section */
+  .aboutSection
+{
+    padding:0rem 0 5rem 0;
+}
+.line
+{
+    border:2px solid #2ec4b6;
+}
+.aboutImg{
+    margin-top:5rem;
+    border:8px solid #2ec4b6;
+    border-radius:50%
+}
+.aboutSection h4
+{
+    font-weight: 800;
+}
+/*SERVICES*/
+card
+{
+    background: url(../../assets/imgs/transparantImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(248, 248, 248);
+}
+.innerCard
+{
+    padding:2rem;
+}
+.aboutImg{
+    margin-top:5rem;
+    border:8px solid #2ec4b6;
+    border-radius:50%
+
+}
+.subtitle{
+    
+    color:#011627;
+    font-weight: 900;
+    padding-top:7rem
+}
+.serviceSection{
+    background: url(../../assets/imgs/transparantImage.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(230, 230, 230, 0.315); 
+}
+.card{
+    height:100%
+}
+.cardbackgroundImage1{
+    padding-top:2rem
+}
+
+/*Call to action */
+.call-to-action-heading h1{
+  font-size: 50px;
+  color:#fff;
+}
+@media(max-width:640px){
+   
+    .description p{
+      font-size:18px;
+    }
+    .call-to-action{
+        
+        padding:7px
+
+    }
+    .call-to-action-heading h1{
+        font-size: 30px;
+        color:#fff;
+    }
+    .description{
+        font-size: 10px;
+    }
+}
+.call-to-action{
+    background: url(../../assets/imgs/big-data-analytics-technologies.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+
+}
+.call-to-action2{
+  background: url(../../assets/imgs/internet-of-things-more-than-smart-things.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color:#fff;
+
+}
+.call-to-action2 h3{
+  font-weight: 800;
+}
+@media(max-media:640px){
+  .call-to-action2{
+    background: url(../../assets/imgs/internet-of-things-more-than-smart-things.jpg);
+    width: 100%;
+  
+  }
+}
+
+.contact-btn{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.call-to-action{
+    padding-bottom:5rem;
+}
+
+.servicesCardHeader h4{
+    text-align: center;
+}
+.description p{
+    text-align: center;
+}
+.container-fluid{
+    padding:0px 10% 3rem 10%;
+}
+/*PROJECTS & TESTIMONIALS*/
+.card{
+  padding:3rem;
+ 
+}
+.testimonial-img{
+  justify-content: center;
+  align-items: center;
+}
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  padding-top: 5rem;
+ 
+}
+.view img{
+  height:60vh;
+}
+@media(max-width:640px){
+  .carousel-caption {
+      top: 0;
+      bottom: auto;
+      padding-top: 1px;
+  }
+  .view img{
+      height:80vh
+  }
+  .card p{
+      font-size:15px;
+  }
+  .testimonials-section{
+      padding-bottom:5rem;
+  }
+  .card{
+      padding:0px;
+      
+  width:100%;    }
+}
+.card a:hover{
+  border:8px solid #2ec4b6;
+}
+.testimonial-name{
+  padding:5px;
+  border:8px solid #2ec4b6;
+  border-width: 10%;
+}
+.img-overly{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+ padding:10rem;
+  transform: translate(-50%, -50%);
+  background-color:rgba(29, 27, 27, 0.767);
+  color:#fff;
+  padding:10px;
+}
+.project-imgs img{
+  height:10vh;
+}
+.project-imgs {
+  
+position: relative;
+text-align: center;
+color: white;
+
+}
+.img img{
+  opacity:0,3;
+  
+  border:1px solid #fff;
+  border-radius: 50%;
+}
+.project-imgs img{
+  border:31px solid #fff;
+  border-radius: 3rem;
+}
+/*Contact*/
+.card-wrap{
+  padding-bottom:3rem
+}
+.card{
+  padding:1rem;
+  
+}
+.inner-contact-section{
+  padding-top:4rem
+}
+.icons i{
+  
+  font-size:40px;
+  color:#2ec4b6 ;
+}
+.contact-title h4{
+  background-color:#2ec4b6 ;
+}
+.form-control{
+  font-size:20px;
+  padding:2rem;
+}
+.control-label{
+  font-size:20px
+}
+.form-control textarea{
+  height:50%
+}
+button{
+  border:1px solid #fff;
+  border-radius: 5rem;
+}
+.footer-section{
+  background-color: #011627;
+  color:#fff;
+}
+.footer-section a{
+  color: #fff;
+}
+
+  
+ 
